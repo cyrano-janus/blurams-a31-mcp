@@ -1,0 +1,18 @@
+services:
+  - type: web
+    name: blurams-a31-mcp
+    runtime: docker
+    healthCheckPath: /health
+    envVars:
+      - key: MCP_TRANSPORT
+        value: http
+      - key: HTTP_ADDR
+        value: ":8000"
+      - key: BLURAMS_EMAIL
+        sync: false
+      - key: BLURAMS_PASSWORD
+        sync: false
+      - key: BLURAMS_CAMERA_ID
+        sync: false
+      - key: MCP_BEARER_TOKEN
+        generateValue: true

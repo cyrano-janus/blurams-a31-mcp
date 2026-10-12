@@ -1,0 +1,11 @@
+.env
+.env.*
+!.env.example
+bin/
+coverage.out
+mutation-results.json
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+.coverage
+mutants/
