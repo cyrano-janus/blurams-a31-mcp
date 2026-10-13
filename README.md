@@ -4,6 +4,12 @@ Experimenteller Go-MCP-Server für Blurams-Schwenk-/Neigekameras, zunächst die 
 Verwendet das **offizielle [MCP-Go-SDK](https://github.com/modelcontextprotocol/go-sdk)**,
 Version v1.8.0, mit typisierten Werkzeugen, stdio und stateless Streamable HTTP.
 
+## Roadmap
+
+Die geplante Weiterentwicklung mit Render, Descope und ChatGPT steht in
+[ROADMAP.md](ROADMAP.md). Nächster Schritt ist die echte A31-Verbindungsprüfung;
+OAuth und regelmäßige Steuerung folgen nach erfolgreicher Abnahme.
+
 ## Status und Grenzen
 
 Die reale Anmeldung mit einem Blurams-Konto und die Kompatibilität mit einer A31
